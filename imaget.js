@@ -4,11 +4,7 @@ var readline = require('readline');
 var rl = readline.createInterface(process.stdin, process.stdout);
 const { rawListeners } = require("process");
 const { resolveObjectURL } = require("buffer");
-var uname=""
-var pwd=""
 http.createServer( async function (req, res) {
-      //uname=await getuname()
-      //pwd=await getpwd()
     console.log("hi")
     if(req.method == 'POST') {
       var body = '';
